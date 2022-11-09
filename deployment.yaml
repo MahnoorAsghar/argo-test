@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: argo-nginx-deployment
-  namespace: ns1
+  namespace: ns2
   labels:
     app: nginx
 spec:
